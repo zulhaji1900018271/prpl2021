@@ -1,11 +1,14 @@
-<?php 
+<?php
 $server = "localhost";
+$database = "datalogin";
 $username = "root";
 $password = "";
-$db = "loginregis";
 $tb = "anggota";
 
-$connect = mysqli_connect($server, $username, $password,$db);
-
-
+$conn = mysqli_connect($server, $username, $password, $database);
+if (!$conn) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+echo "Koneksi berhasil";
+mysqli_close($conn);
 ?>
