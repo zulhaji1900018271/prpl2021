@@ -1,0 +1,25 @@
+1.    Jelaskan makna setiap baris di dalamnya
+
+-        Function SignUp ialah memiliki fungsi untu melakukan signup pada user dengan mengisikan email dan password atau terkadang ada juga yang menggunakan Username and Password milik pengguna atau user yang mempunyai akun yang telah terdaftar.
+
+-        Function sendEmail atau fitur pengiriman pesan yang disebut email ialah program pengirim email atau surat online, ketika berhasil melakukan perpesanan email maka selanjutnya akan terdata dan mendapat konfirmasi email bahwa sudah berhasil melakukan signup.
+
+-        InputValidation($email, $password)  yang berfungsi dan kegunaannya untuk memvalidasi pada email dan password yang akan di daftarkan. Fungsi validasi ini mlakukan pengecekan pada password dan email yang di inputkan harus memenuhi syarat.
+
+-        Session_start()  menuju ke halaman lokasi yang dituju program, misalnya menuju ke dasbord.
+
+ 
+
+2.    Bandingkan dengan program yang sudah Anda buat sendiri sebelumnya. Beri penjelasan apa yang menjadi perbedaan utama dari keduanya?
+
+Analisis yang saya dapatkan:
+
+Menurut saya perbandingan antara keduanya ialah, pada program yang diberikan Bapak Ardhiansyah, program tersebut dengan menggunakan sebuah function. Sedangkan pada code yang milik saya tidak terdapat beberapa function tersebut namun ada beberapa function yang sudah diterapkan dan dipelajari walaupun terdapat kesulitan dalam memahminya.
+
+
+3.    Berdasarkan analisis Anda, beri simpulan, mana yang lebih *ringkas* dan lebih *mudah dipahami*. Berikan alasannya.
+
+Kesimpulan
+Kesimpulan yang di dapat kan pada perbandingan dari kedua program yang ringkas adalah program signup.php ,
+Alasannya ?
+karena pada programnya tidak terlalu rumit dan mudah , sedangkan program yang saya miliki terdapat  syntaknya lebih rumit dan beberapa syntak yang banyak serta Panjang tidak efisiensi. Sehingga program signup.php lebih mudah dipahami karena factor syntak yang ringkas dan penggunaan efisien dan efektif dengan penggunaan fungsi class yang mejadikan  program yang dapat lebih mudah di mengerti.
